@@ -7,8 +7,9 @@ def register(username,email,password):
         'password':password
     }
 
-    result = json.dumps(user_obj)
-
+    user_json = json.dumps(user_obj)
+    with open('./db/users.txt','a') as file:
+        file.write(user_json + '\n')
 
 
 

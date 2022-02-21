@@ -45,7 +45,7 @@ def render_register_screen(window):
         if password_value != confirm_password_value:
             tk.Label(window,text='Password must match!', fg='red').grid(row=4,column=1)
         else:
-            result =register()
+            result =register(username_value,email_value,password_value)#sus alt+enter da mi importne
 
     tk.Button(window, text='Register',
               bg='green',
