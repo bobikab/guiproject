@@ -13,7 +13,7 @@ def render_product_screen(window):
     products = get_all_products()
     row = 0
     column=0
-    for product in products:#3na3 go pravim
+    for product in products:#3na3 go pravim okje
         if column == 3:
             row+=5
             column = 0
