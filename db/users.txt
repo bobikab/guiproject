@@ -1,2 +1,0 @@
-{"username": "dasds", "email": "dasda", "password": "123"}
-{"username": "dasds2", "email": "dasda2", "password": "123"}
